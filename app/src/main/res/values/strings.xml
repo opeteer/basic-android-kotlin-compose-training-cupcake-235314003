@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2023 The Android Open Source Project
 
@@ -14,33 +15,29 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_name">Cupcake</string>
-    <string name="order_cupcakes">Order Cupcakes</string>
-    <string name="one_cupcake">One Cupcake</string>
-    <string name="six_cupcakes">Six Cupcakes</string>
-    <string name="twelve_cupcakes">Twelve Cupcakes</string>
-    <string name="choose_flavor">Choose Flavor</string>
-    <string name="vanilla">Vanilla</string>
-    <string name="chocolate">Chocolate</string>
-    <string name="red_velvet">Red Velvet</string>
-    <string name="salted_caramel">Salted Caramel</string>
-    <string name="coffee">Coffee</string>
-    <string name="special_flavor">Special Flavor</string>
-    <string name="cancel">Cancel</string>
-    <string name="next">Next</string>
-    <string name="choose_pickup_date">Choose Pickup Date</string>
-    <string name="order_summary">Order Summary</string>
-    <string name="send">Send Order to Another App</string>
-    <string name="quantity">Quantity</string>
-    <string name="flavor">Flavor</string>
-    <string name="pickup_date">Pickup date</string>
-    <string name="subtotal_price">Subtotal %s</string>
-    <string name="total_price">Total %s</string>
-    <string name="new_cupcake_order">New Cupcake Order</string>
-    <string name="order_details">Quantity: %1$s \nFlavor: %2$s \nPickup date: %3$s \nTotal: %4$s \n\nThank you!</string>
-    <string name="back_button">Back</string>
-    <plurals name="cupcakes">
-        <item quantity="one">%d cupcake</item>
-        <item quantity="other">%d cupcakes</item>
-    </plurals>
+    <string name="app_name">TechStore Komputer</string>
+    <string name="order_computer">Pilih Jenis Komputer / Notebook</string>
+    <string name="choose_computer_type">Pilih Jenis Perangkat</string>
+    <string name="choose_processor_ram">Pilih Prosesor &amp; RAM</string>
+    <string name="choose_storage_gpu">Pilih Storage &amp; Kartu Grafis</string>
+    <string name="choose_monitor">Pilih Ukuran Monitor</string>
+    <string name="order_summary">Ringkasan Spesifikasi &amp; Harga</string>
+
+    <string name="computer_type">Jenis Perangkat</string>
+    <string name="processor">Jenis Prosesor</string>
+    <string name="ram">Besar Memori (RAM)</string>
+    <string name="storage">Ukuran &amp; Tipe Storage</string>
+    <string name="gpu">Tipe Kartu Grafis</string>
+    <string name="monitor">Ukuran Monitor</string>
+
+    <string name="cancel">Batal</string>
+    <string name="next">Berikutnya</string>
+    <string name="send">Kirim Rincian Pesanan</string>
+    <string name="back_button">Kembali</string>
+
+    <string name="subtotal_price">Subtotal: %s</string>
+    <string name="total_price">Perkiraan Harga: %s</string>
+
+    <string name="order_details">Spesifikasi Komputer / Notebook:\n\n• Jenis Perangkat: %1$s\n• Prosesor: %2$s\n• Memori (RAM): %3$s\n• Storage: %4$s\n• Kartu Grafis: %5$s\n• Monitor: %6$s\n\nPerkiraan Total Harga: %7$s\n\nTerima kasih telah memesan di TechStore Komputer!</string>
+    <string name="new_computer_config">Rincian Perkiraan Harga Komputer - TechStore</string>
 </resources>
